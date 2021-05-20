@@ -11,6 +11,7 @@
 		474A84782655F3BF00811792 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474A84772655F3BF00811792 /* ContentView.swift */; };
 		474A847A2655F3C000811792 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 474A84792655F3C000811792 /* Assets.xcassets */; };
 		474A847D2655F3C000811792 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 474A847C2655F3C000811792 /* Preview Assets.xcassets */; };
+		474A84862655F5BF00811792 /* PokemonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474A84852655F5BF00811792 /* PokemonCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		474A84792655F3C000811792 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		474A847C2655F3C000811792 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		474A847E2655F3C000811792 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		474A84852655F5BF00811792 /* PokemonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		474A84742655F3BF00811792 /* pokemon */ = {
 			isa = PBXGroup;
 			children = (
+				474A84842655F5AC00811792 /* View */,
 				474A84752655F3BF00811792 /* pokemonApp.swift */,
 				474A84772655F3BF00811792 /* ContentView.swift */,
 				474A84792655F3C000811792 /* Assets.xcassets */,
@@ -67,6 +70,14 @@
 				474A847C2655F3C000811792 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		474A84842655F5AC00811792 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				474A84852655F5BF00811792 /* PokemonCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +151,7 @@
 			files = (
 				474A84782655F3BF00811792 /* ContentView.swift in Sources */,
 				474A84762655F3BF00811792 /* pokemonApp.swift in Sources */,
+				474A84862655F5BF00811792 /* PokemonCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
